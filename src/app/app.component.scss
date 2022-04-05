@@ -1,0 +1,43 @@
+form, .block{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 3%;
+  background-color: #eeedef;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.form-group {
+  margin-bottom: 3%;
+}
+
+.label {
+  margin-bottom: 7px;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.block {
+  width: 35%;
+  margin-left: 8%;
+}
+
+.sample {
+  width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.alert {
+  margin-top: 3%;
+}
