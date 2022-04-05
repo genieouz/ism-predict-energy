@@ -5,7 +5,7 @@
       <div class="label">{{k}}</div>
       <input name="{{k}}" [(ngModel)]="this['data'][k]" class="form-control form-control-lg" type="text">
     </div>
-    <button type="button" class="btn btn-success" (click)="predict()">Predict</button>
+    <button type="button" class="btn btn-success" (click)="predict()">{{ inprocess ? 'Predict' : 'In process' }}</button>
     <div class="alert alert-success" role="alert" *ngIf="result">
       {{result}}
     </div>
